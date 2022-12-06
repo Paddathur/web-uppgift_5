@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact - The Lorem Ipsum</h1>
+            <nav>
+                <a href="index.html">Headlines</a>
+                <a href=contact.html>Contact</a>
+            </nav>
+        </header>
+        <main>
+            <form action="thanks.html">
+                <fieldset>
+                    <legend>personalia</legend>
+                    <label>
+                        name
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        email
+                        <input type="email" name="email" required>
+                    </label><label>country
+                        <select name="country">
+                            <option value="(select one)">(select one)</option>
+                            <option value="US">US</option>
+                            <option value="UK">UK</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>select</legend>
+                    <p>department do you want to contact</p>
+                    <label><input type="checkbox">news</label>
+                    <label><input type="checkbox">sports</label>
+                    <p>do you want to replay</p>
+                    <label><input type="radio" name="replay">yes</label>
+                    <label><input type="radio" name="replay">no</label>
+                </fieldset>
+                <div class="send-button-container">
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <img src="img/sun.png" alt="sun symbol">
+            london 19&#176;
+        </footer>
+    </div>
+</body>
+
+</html>
